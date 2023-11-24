@@ -205,14 +205,14 @@ linux {
 }
 
 
-TRANSLATIONS += translations/i18n_Japanese.ts
+#TRANSLATIONS += translations/i18n_Japanese.ts
 
 RESOURCES += \
     resource.qrc
 
 
 # I18N https://wiki.qt.io/Automating_generation_of_qm_files starts ---------------
-LANGUAGES += Japanese
+#LANGUAGES += Japanese
 
 # parameters: var, prepend, append
 defineReplace(prependAll) {
