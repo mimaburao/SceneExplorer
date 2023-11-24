@@ -494,6 +494,8 @@ bool TaskFFmpeg::run4(double duration, const QString& strWidthHeight, const QStr
     qsl.append("-v");
     qsl.append("16");  // only error output
     qsl.append("-hide_banner");  // as it is
+    qsl.append("-hwaccel");  // ハードウェアデコードを有効
+    qsl.append("cuda");
     qsl.append("-n");  // no overwrite
     for(int i=1; i <=5 ; ++i)
     {
