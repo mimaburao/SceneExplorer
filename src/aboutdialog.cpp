@@ -167,8 +167,8 @@ AboutDialog::AboutDialog(QWidget *parent) :
 
     QString txtGitrev;
     // txtGitrev += "Gitrev:\n";
-    txtGitrev += GITREV::GetHashMessage().c_str();
-    ui->tbGitrev->setText(txtGitrev);
+    //txtGitrev += GITREV::GetHashMessage().c_str();
+    //ui->tbGitrev->setText(txtGitrev);
 
 
     QString qtText;
